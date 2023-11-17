@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "6553c6d17bf2a92f3405fcb5"
+  },
+  "username": "john_doe",
+  "email": "john.doe@example.com",
+  "phone": "1234567890",
+  "created_at": "2023-11-15T12:00:00.000Z",
+  "password": "1234567"
+},{
+  "_id": {
+    "$oid": "6553d10950d5e38c0ad8ae29"
+  },
+  "username": "jane_doe",
+  "email": "jane.doe@example.com",
+  "phone": "1234533333",
+  "created_at": "2023-11-15T12:00:00.000Z",
+  "password": "145632"
+},{
+  "_id": {
+    "$oid": "6554a103d6a0e8cf2149dbb5"
+  },
+  "username": "Shubhrant",
+  "email": "shubh@gmail.com",
+  "password": "1234",
+  "phone": "9305555123",
+  "created_at": "2023-11-15T12:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "65561b78ac01128c9b116a84"
+  },
+  "username": "yash",
+  "email": "yash@gmail.com",
+  "phone": "9838746463",
+  "password": "123456",
+  "created_at": "2023-11-16T13:38:53.823Z"
+},{
+  "_id": {
+    "$oid": "65566b5d2a47c1bc3777aaae"
+  },
+  "username": "Vansh",
+  "email": "vansh@gmail.com",
+  "phone": "9838746463",
+  "password": "1234659",
+  "created_at": "2023-11-16T19:19:55.733Z"
+},{
+  "_id": {
+    "$oid": "6556805d18f6fb536004b4f1"
+  },
+  "username": "Vanshul",
+  "email": "vanshul@gmail.com",
+  "phone": "9638527410",
+  "password": "123489",
+  "created_at": "2023-11-16T20:49:31.788Z"
+},{
+  "_id": {
+    "$oid": "6556f9cf31d9e84a475f8402"
+  },
+  "username": "goel",
+  "email": "goel@fmail.com",
+  "phone": "1234567890",
+  "password": "1234567",
+  "created_at": "2023-11-17T05:27:42.102Z"
+},{
+  "_id": {
+    "$oid": "6557214231d9e84a475f8403"
+  },
+  "username": "Siddharth",
+  "email": "asdasdd@add",
+  "phone": "9876543210",
+  "password": "52",
+  "created_at": "2023-11-17T08:16:01.124Z"
+},{
+  "_id": {
+    "$oid": "65573a9be1f5b641c55c8a7a"
+  },
+  "username": "Deepankar",
+  "email": "deep@ankar.com",
+  "phone": "9191919191",
+  "password": "1234567",
+  "created_at": "2023-11-17T10:04:07.058Z"
+}]

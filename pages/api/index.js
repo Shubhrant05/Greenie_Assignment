@@ -1,3 +1,5 @@
+// All the files in api folder can be used to make a connection to backend and use MongoDB
+
 import { MongoClient } from 'mongodb';
 
 const uri = 'mongodb+srv://shubhrant:Luucent0@cluster0.n1ukk8g.mongodb.net/';
