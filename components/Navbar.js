@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
-import Tabs from './Tabs'
 import logo from '../public/Greenie.svg'
 import Link from 'next/link';
 const Navbar = () => {
