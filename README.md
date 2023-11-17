@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Greenie SDE Assignment
+
+This repo consist of the Greenie assignment for SDE role.
+
+## Table of Contents
+
+- [Greenie Assignment](#project-title)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+
+
+
+## Features
+
+The key features of the project are.
+
+- Handling dummy request on account creation
+- Displaying data in tabular format
+- Making the tabular data searchable on the basis of email
+- Showing a short report of individual data.
+- Creating report.pdf of particular user
 
 ## Getting Started
 
-First, run the development server:
+Please follow following steps to set-up the project
+- Clone the repository
+- Run ```npm install``` to install all dependencies.
+- Run ```npm run dev``` to run in development environment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+After this your project should be up and runing on ```localhost:3000```.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+All this will be done over dummy database mentioned in ```DummyDB``` folder.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+I have also implemented it in such a way that it can be used with an actual Database on MongoDB. All the required code for that is commented.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Folder Structure
+- ```pages/api``` : This folder contains three files. One to make a connection to DB and other files to get and post user details.
+- ```pages/UserCreation.js``` : This file contains user creation code but since the project required dummy data hence only submit button event in handled but MongoDB implementation is present which can be utilised.
+- ```pages/UserTable.js``` : This file helps us to show the data in a searchable tabular format. Data can be searched on the basis of email.
+- ```component``` : This folder contains required components for the project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
